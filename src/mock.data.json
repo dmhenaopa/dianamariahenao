@@ -1,0 +1,132 @@
+[
+    {
+        "id": "001",
+        "first_name": "Frailejón Ernesto",
+        "last_name": "Pérez",
+        "phone_number": "3001234567",
+        "email": "ernestico@paramo.com",
+        "password": "paramito",
+        "company": "Páramo Co.",
+        "subscription_id": "03"  
+    },
+    {
+        "id": "002",
+        "first_name": "Rana",
+        "last_name": "René",
+        "phone_number": "3007654321",
+        "email": "kermit@muppet.com",
+        "password": "muppetpuppet",
+        "company": "The Muppets Show",
+        "subscription_id": "01"  
+    },
+    {
+        "id": "003",
+        "first_name": "Luciano",
+        "last_name": "Bellini",
+        "email": "josepadre3030@gmail.com",
+        "password": "luciano",
+        "company": "Salesianos Ecuador",
+        "phone_number": "0984226554",
+        "subscription_id": "01"
+    },
+    {
+        "id": "004",
+        "first_name": "Leanne",
+        "last_name": "Graham",
+        "email": "sincere@april.biz",
+        "password": "leanne",
+        "company": "Romaguera-Crona",
+        "phone_number": "7707368031",
+        "subscription_id": "02"
+    },
+    {
+        "id": "005",
+        "first_name": "Ervin",
+        "last_name": "Howell",
+        "password": "antonette",
+        "email": "shanna@melissa.tv",
+        "phone_number": "0106926593",
+        "company": "Deckow-Crist",
+        "subscription_id": "03"
+    },
+    {
+        "id": "006",
+        "first_name": "Clementine",
+        "last_name": "Bauch",
+        "password": "samantha",
+        "email": "nathan@yesenia.net",
+        "phone_number": "146312344",
+        "company": "Romaguera-Jacobson",
+        "subscription_id": "01"
+    },
+    {
+        "id": "007",
+        "first_name": "Patricia",
+        "last_name": "Lebsack",
+        "password": "karianne",
+        "email": "julianne.oconner@kory.org",
+        "phone_number": "4931709623",
+        "company": "Robel-Corkery",
+        "subscription_id": "02"
+    },
+    {
+        "id": "008",
+        "first_name": "Chelsey",
+        "last_name": "Dietrich",
+        "password": "kamren",
+        "email": "lucio_hettinger@annie.ca",
+        "phone_number": "2549541289",
+        "company": "Keebler LLC",
+        "subscription_id": "03"
+    },
+    {
+        "id": "009",
+        "first_name": "Mrs. Dennis",
+        "last_name": "Schulist",
+        "password": "leopoldo_Corkery",
+        "email": "karley_dach@jasper.info",
+        "phone_number": "4779358478",
+        "company": "Considine-Lockman",
+        "subscription_id": "01"
+    },
+    {
+        "id": "010",
+        "first_name": "Kurtis",
+        "last_name": "Weissnat",
+        "password": "elwyn.skiles",
+        "email": "telly.hoeger@billy.biz",
+        "phone_number": "2100676132",
+        "company": "Johns Group",
+        "subscription_id": "02"
+    },
+    {
+        "id": "011",
+        "first_name": "Nicholas",
+        "last_name": "Runolfsdottir V",
+        "password": "maxime_nienow",
+        "email": "sherwood@rosamond.me",
+        "phone_number": "5864936943",
+        "company": "Abernathy Group",
+        "subscription_id": "03"
+    },
+    {
+        "id": "012",
+        "first_name": "Glenna",
+        "last_name": "Reichert",
+        "password": "delphine",
+        "email": "chaim_mcdermott@dana.io",
+        "phone_number": "7759766794",
+        "company": "Yost and Sons",
+        "subscription_id": "01"
+    },
+    {
+        "id": "013",
+        "first_name": "Clementina",
+        "last_name": "DuBuque",
+        "password": "moriah.stanton",
+        "email": "rey.padberg@karina.biz",
+        "phone_number": "0246483804",
+        "company": "Hoeger LLC",
+        "subscription_id": "02"
+    }
+]

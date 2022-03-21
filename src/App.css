@@ -1,0 +1,40 @@
+table {
+    position: absolute;
+    border-collapse: collapse;
+    font-size: 17px;
+    background-color: #ffffff;
+    margin: 25px 0;
+    min-width: 1100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    left: 5%;
+}
+
+thead tr {
+    background-color: #adb9d1;
+    text-align: left;
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 12px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f2f4f7;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #adb9d1;
+}
+
+.newUser {
+    position: absolute;
+    top: 600px;
+}
