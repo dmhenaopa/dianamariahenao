@@ -1,4 +1,37 @@
-import React, { useState, Fragment } from "react";
+import React, { Fragment } from 'react';
+import './App.css';
+import { Product } from './components/Product';
+
+function App() {
+    return (
+        <Fragment>
+          <input
+            className="inputSearch"
+            type="search"
+            name="search"
+            placeholder="Buscar producto"
+          />
+          <button className="buttonNewProduct">Añadir producto</button>
+          <div className="divProducts">
+            <Product text="asfd" />
+          </div>
+        </Fragment>
+      );
+    }
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+//TABLA USUARIO- ADMIN
+/*import React, { useState, Fragment } from "react";
 import { ReadOnlyRow } from "./components/ReadOnlyRow";
 import './App.css';
 import data from './mock.data.json';
@@ -216,66 +249,15 @@ function App() {
 }
 
 export default App;
+*/
 
-
-
-
-
-    /*
-    // Del lado del admin:
-    // Buscar los productos a los que esta subscrito el usuario
-    // Que pueda descargar los archivos
-    // Que pueda actualizar la información de los archivos
-    // Que pueda asignar permisos a los archivos a los usuarios
-    // Que pueda eliminar 
-    
-    const blueprintUrl = 'https://jsonplaceholder.typicode.com';
-
-    /*Url para personalizar de acuerdo al servicio que se requiera 
-        /api/v1/admin
-        /api/v1/user
-        /api/v1/subscription
-    const completeUrl= blueprintUrl + '';
-
-    const completeUrl= blueprintUrl + '/users';
-
-    const [users, setUsers] = useState();
-
-    const fetchApi = async () => { // Función que pide los usuarios
-        const response = await fetch(completeUrl)
-        const responseJSON = await response.json()
-        setUsers(responseJSON)
-        console.log(responseJSON)
-    }
-
-    useEffect(()=> { //Ejecuta la función al inicio
-        fetchApi()
-    }, [])
-
-    return(
-        <Fragment>
-            <div>Traer datos de APIs en React
-                <ul>
-                    { !users ? 'Cargando...': 
-                    users.map((users, index) => {
-                        return <li>{users.name}</li>
-                    })}
-                </ul>
-            </div>
-            
-        </Fragment>
-    );
-}
-
-
-
-    //¡ESTA ES LA FORMA BUENA!
-    /*const url = 'https://jsonplaceholder.typicode.com/users';
-    const [users, setUsers] = useState(); // Hook que almacena los usuarios
-    const fetchApi = async () => { // Función que pide los usuarios
-        const response = await fetch(url)
-        const responseJSON = await response.json()
-        setUsers(responseJSON)
+//¡ESTA ES LA FORMA BUENA - TRAER INFO DE API!
+/*const url = 'https://jsonplaceholder.typicode.com/users';
+const [users, setUsers] = useState(); // Hook que almacena los usuarios
+const fetchApi = async () => { // Función que pide los usuarios
+    const response = await fetch(url)
+    const responseJSON = await response.json()
+    setUsers(responseJSON)
     }
 
     useEffect(()=> { //Ejecuta la función al inicio
@@ -294,9 +276,10 @@ export default App;
             </div>
             
         </Fragment>
-    );*/
+    );
+}*/
 
- //Busqueda de texto
+//BUSQUEDA DE TEXTO
 /* function forEach(node, callback) {
     Array.prototype.forEach.call(node.childNodes, callback);
 }
@@ -351,7 +334,7 @@ function searchText(container, search) {
 } */
 
 
-//Ejemplo descarga de archivos
+//EJEMPLO DESCARGA DE ARCHIVOS
 /* $(function () {
 	function downloadLink(id) {
     	var ajaxOptions = {
