@@ -1,31 +1,32 @@
 import React from "react";
+import styles from './../App.css';
 
-function ProductForm(props) {
+export function ProductForm(props) {
   return (
     <form className="formProductForm">
       <input
-        className="inputProductForm"
+        className={styles.inputProductForm1}
         type="text"
         placeholder="id del producto"
         name="productId"
       />
       <input
-        className="inputProductForm"
+        className={styles.inputProductForm2}
         type="text"
-        placeholder="id del producto"
-        name="productId"
+        placeholder="Nombre del producto"
+        name="productName"
       />
       <input
-        className="inputProductForm"
+        className={styles.inputProductForm3}
         type="text"
-        placeholder="id del producto"
-        name="productId"
+        placeholder="Control de versión"
+        name="version"
       />
       <input
-        className="inputProductForm"
+        className={styles.inputProductForm4}
         type="text"
-        placeholder="id del producto"
-        name="productId"
+        placeholder="Descripción del producto"
+        name="productDescription"
       />
       <button className="buttonAttachFile">Agregar archivo adjunto</button>
       <button className="buttonNewProduct">Crear producto</button>

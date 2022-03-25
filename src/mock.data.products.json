@@ -1,0 +1,23 @@
+[
+    {
+        "product_id": "01",
+        "product_name": "Suscripción Instalador",
+        "description": "Este producto contiene la información necesaria para la instalación del programa que manejará las actualizaciones en la computadora del usuario.",
+        "version": "2.1",
+        "className": "divProduct1"
+    },
+    {
+        "product_id": "02",
+        "product_name": "Suscripción Documentación y actualizaciones",
+        "description": "Este producto contiene la última versión de la documentación. Actualmente contiene: Actualizador No. 219, Actualizador No. 218 y Actualizador No. 217.",
+        "version": "1.0",
+        "className": "divProduct2"
+    },
+    {
+        "product_id": "03",
+        "product_name": "Suscripción Instalador + Documentación y actualizaciones",
+        "description": "Este producto contiene la información necesaria para la instalación del programa que manejará las actualizaciones en la computadora del usuario. Adicionalmente, contiene la última versión de la documentación. Actualmente contiene: Actualizador No. 219, Actualizador No. 218 y Actualizador No. 217.",
+        "version": "2.1 + 1.0",
+        "className": "divProduct3"
+    }
+]
